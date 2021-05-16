@@ -1,0 +1,97 @@
+.navbar a
+{
+    padding: 35px 25px;
+    float:right;
+    font-family: sans-serif;
+    margin: 5px;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+.content
+{
+    font-family: sans-serif;
+    text-align: center;
+    padding-top: 115px;
+    padding-left: 22px;
+    color: white;
+}
+#name
+{
+    font-family: sans-serif;
+    font-size: 30px;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    border-right: 2px solid white;
+    width: 200px;
+    text-align: center;
+    box-shadow: 4px 4px black;
+    float:left;
+    padding-left: 10px;
+    color:white;
+}
+#bname
+{
+    font-size: 60px;
+    color: white;
+}
+#cname
+{
+    padding-top: 15%;
+    font-size: 45px;
+    font-family: sans-serif;
+    text-align: center;
+    color: white;
+}
+#sname
+{
+    font-size: 20px;
+}
+body
+{
+    background-color: #067070;
+}
+.bt
+{
+    text-align: center;
+    height: 40px;
+    width: 150px;
+    border-style: none;
+    border-radius: 16px;
+    margin-left: 45%;
+    margin-top: 3%;
+    background-color: black;
+}
+.bt a
+{
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+img{
+    height: 175px;
+    width: 175px;
+    border-radius: 50%;
+    padding-left: 10px;
+    transition: all 1s;
+}
+img:hover
+{
+    transform: scale(1.2);
+}
+.container
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+
+
+}
+.container p
+{
+    font-size: 20px;
+    font-family: sans-serif;
+    color: white;
+    padding-left: 20px;
+}
